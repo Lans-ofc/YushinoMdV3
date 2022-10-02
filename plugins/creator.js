@@ -35,8 +35,8 @@ let teksbio = `┆⫹⫺ 💌 Nama : Tri Zulfi Ardiansyah
 └––––––––––––·•
 `
 let ppown2 = await conn.profilePictureUrl(nomorown2 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio2 = `┆⫹⫺ 💌 Nama : Dian
-┆⫹⫺ ✉️ Nama RL : Dyan
+let teksbio2 = `┆⫹⫺ 💌 Nama : maulana
+┆⫹⫺ ✉️ Nama RL : maulana
 ┆⫹⫺ ♂️ Gender : Pria
 ┆⫹⫺ 🕋 Agama : Islam
 ┆⫹⫺ ⏰ Tanggal lahir : 15 - 07 - 2007
@@ -96,7 +96,7 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
                 ['Menu', `${usedPrefix}menu`]
             ], m, { contextInfo: { mentionedJid: [nomorown1] }})*/
  conn.send2ButtonImg(m.chat, fs.readFileSync('./media/own.jpg').buffer, teksnomor, `Halo ${tag}\nIᴛᴜ Oᴡɴᴇʀ Kᴜ⫺⫰⫹\n` + botdate, `Sewa Bot`, `.sewa`, 'Menu', `.menu`, ftroli, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/dddyan.__',
+    mediaUrl: 'https://instagram.com/lans_store03',
     mediaType: 2, 
     description: sgc,
     title: "Join Sini Juga Cuy!",
@@ -110,7 +110,7 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
           //conn.sendHydrated(m.chat, teksbio, wm, ppown, sig, "📷 Instagram", nomorown, '🌹 Nomor', [[null, null], [null, null],[null,null]], m)
 
    conn.sendButton(m.chat, '┍┈༺ *𝙱𝚒𝚘𝙳𝚊𝚝𝚊 Saya* ༻', teksbio, ppown, [
-                ['Sewa Bot', `${usedPrefix}sewa`],
+                ['Sewa Bot🗿', `${usedPrefix}sewa`],
                 ['Menu', `${usedPrefix}menu`]
             ], m)
             break
